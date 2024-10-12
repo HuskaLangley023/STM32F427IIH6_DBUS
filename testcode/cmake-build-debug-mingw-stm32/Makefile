@@ -128,6 +128,54 @@ testcode.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testcode.elf.dir\build.make CMakeFiles/testcode.elf.dir/build
 .PHONY : testcode.elf/fast
 
+Core/Src/Callback.obj: Core/Src/Callback.c.obj
+.PHONY : Core/Src/Callback.obj
+
+# target to build an object file
+Core/Src/Callback.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testcode.elf.dir\build.make CMakeFiles/testcode.elf.dir/Core/Src/Callback.c.obj
+.PHONY : Core/Src/Callback.c.obj
+
+Core/Src/Callback.i: Core/Src/Callback.c.i
+.PHONY : Core/Src/Callback.i
+
+# target to preprocess a source file
+Core/Src/Callback.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testcode.elf.dir\build.make CMakeFiles/testcode.elf.dir/Core/Src/Callback.c.i
+.PHONY : Core/Src/Callback.c.i
+
+Core/Src/Callback.s: Core/Src/Callback.c.s
+.PHONY : Core/Src/Callback.s
+
+# target to generate assembly for a file
+Core/Src/Callback.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testcode.elf.dir\build.make CMakeFiles/testcode.elf.dir/Core/Src/Callback.c.s
+.PHONY : Core/Src/Callback.c.s
+
+Core/Src/dma.obj: Core/Src/dma.c.obj
+.PHONY : Core/Src/dma.obj
+
+# target to build an object file
+Core/Src/dma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testcode.elf.dir\build.make CMakeFiles/testcode.elf.dir/Core/Src/dma.c.obj
+.PHONY : Core/Src/dma.c.obj
+
+Core/Src/dma.i: Core/Src/dma.c.i
+.PHONY : Core/Src/dma.i
+
+# target to preprocess a source file
+Core/Src/dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testcode.elf.dir\build.make CMakeFiles/testcode.elf.dir/Core/Src/dma.c.i
+.PHONY : Core/Src/dma.c.i
+
+Core/Src/dma.s: Core/Src/dma.c.s
+.PHONY : Core/Src/dma.s
+
+# target to generate assembly for a file
+Core/Src/dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testcode.elf.dir\build.make CMakeFiles/testcode.elf.dir/Core/Src/dma.c.s
+.PHONY : Core/Src/dma.c.s
+
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
 
@@ -175,6 +223,30 @@ Core/Src/main.s: Core/Src/main.c.s
 Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testcode.elf.dir\build.make CMakeFiles/testcode.elf.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
+
+Core/Src/mapping.obj: Core/Src/mapping.c.obj
+.PHONY : Core/Src/mapping.obj
+
+# target to build an object file
+Core/Src/mapping.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testcode.elf.dir\build.make CMakeFiles/testcode.elf.dir/Core/Src/mapping.c.obj
+.PHONY : Core/Src/mapping.c.obj
+
+Core/Src/mapping.i: Core/Src/mapping.c.i
+.PHONY : Core/Src/mapping.i
+
+# target to preprocess a source file
+Core/Src/mapping.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testcode.elf.dir\build.make CMakeFiles/testcode.elf.dir/Core/Src/mapping.c.i
+.PHONY : Core/Src/mapping.c.i
+
+Core/Src/mapping.s: Core/Src/mapping.c.s
+.PHONY : Core/Src/mapping.s
+
+# target to generate assembly for a file
+Core/Src/mapping.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testcode.elf.dir\build.make CMakeFiles/testcode.elf.dir/Core/Src/mapping.c.s
+.PHONY : Core/Src/mapping.c.s
 
 Core/Src/stm32f4xx_hal_msp.obj: Core/Src/stm32f4xx_hal_msp.c.obj
 .PHONY : Core/Src/stm32f4xx_hal_msp.obj
@@ -721,12 +793,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... testcode.elf
+	@echo ... Core/Src/Callback.obj
+	@echo ... Core/Src/Callback.i
+	@echo ... Core/Src/Callback.s
+	@echo ... Core/Src/dma.obj
+	@echo ... Core/Src/dma.i
+	@echo ... Core/Src/dma.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
+	@echo ... Core/Src/mapping.obj
+	@echo ... Core/Src/mapping.i
+	@echo ... Core/Src/mapping.s
 	@echo ... Core/Src/stm32f4xx_hal_msp.obj
 	@echo ... Core/Src/stm32f4xx_hal_msp.i
 	@echo ... Core/Src/stm32f4xx_hal_msp.s

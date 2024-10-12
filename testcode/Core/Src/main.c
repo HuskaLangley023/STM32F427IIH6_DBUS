@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "dma.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -29,6 +30,10 @@
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 
+
+RC_Ctl_t RC_CtrlData={0};
+RC RC_showcase={0};
+uint8_t rx_buffer[18];
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -87,9 +92,10 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  HAL_UART_Receive_DMA(&huart1,rx_buffer,18);
   /* USER CODE END 2 */
 
   /* Infinite loop */

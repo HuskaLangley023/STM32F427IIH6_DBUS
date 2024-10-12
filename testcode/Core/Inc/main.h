@@ -31,26 +31,66 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "mapping.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
+  typedef struct
+  {
+    struct
+    {
+      uint16_t ch0;
+      uint16_t ch1;
+      uint16_t ch2;
+      uint16_t ch3;
+      uint8_t  s1;
+      uint8_t  s2;
+    }rc;
+    struct
+    {
+      int16_t x;
+      int16_t y;
+      int16_t z;
+      uint8_t press_l;
+      uint8_t press_r;
+    }mouse;
+    struct
+    {
+      uint16_t v;
+    }key;
+  } RC_Ctl_t;
 
-/* USER CODE END ET */
+  typedef struct {
+    float r_row;
+    float r_col;
+    float l_row;
+    float l_col;
 
-/* Exported constants --------------------------------------------------------*/
-/* USER CODE BEGIN EC */
+    RCBottonTypeDef s1;
+    RCBottonTypeDef s2;
 
-/* USER CODE END EC */
+    RCSwitchTypeDef l;
+    RCSwitchTypeDef r;
 
-/* Exported macro ------------------------------------------------------------*/
-/* USER CODE BEGIN EM */
+    float mouse_x;
+    float mouse_y;
+    float mouse_z;
+  }RC;
+    /* USER CODE END ET */
 
-/* USER CODE END EM */
+    /* Exported constants --------------------------------------------------------*/
+    /* USER CODE BEGIN EC */
 
-/* Exported functions prototypes ---------------------------------------------*/
-void Error_Handler(void);
+    /* USER CODE END EC */
+
+    /* Exported macro ------------------------------------------------------------*/
+    /* USER CODE BEGIN EM */
+
+    /* USER CODE END EM */
+
+    /* Exported functions prototypes ---------------------------------------------*/
+    void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
 
