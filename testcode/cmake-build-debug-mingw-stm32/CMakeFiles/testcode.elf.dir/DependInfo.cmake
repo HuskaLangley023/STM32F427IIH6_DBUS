@@ -34,7 +34,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/RM_Projects/STM32F427IIH6_DBUS/testcode/Core/Src/dma.c" "CMakeFiles/testcode.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/testcode.elf.dir/Core/Src/dma.c.obj.d"
   "D:/RM_Projects/STM32F427IIH6_DBUS/testcode/Core/Src/gpio.c" "CMakeFiles/testcode.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/testcode.elf.dir/Core/Src/gpio.c.obj.d"
   "D:/RM_Projects/STM32F427IIH6_DBUS/testcode/Core/Src/main.c" "CMakeFiles/testcode.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/testcode.elf.dir/Core/Src/main.c.obj.d"
-  "D:/RM_Projects/STM32F427IIH6_DBUS/testcode/Core/Src/mapping.c" "CMakeFiles/testcode.elf.dir/Core/Src/mapping.c.obj" "gcc" "CMakeFiles/testcode.elf.dir/Core/Src/mapping.c.obj.d"
   "D:/RM_Projects/STM32F427IIH6_DBUS/testcode/Core/Src/stm32f4xx_hal_msp.c" "CMakeFiles/testcode.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" "gcc" "CMakeFiles/testcode.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj.d"
   "D:/RM_Projects/STM32F427IIH6_DBUS/testcode/Core/Src/stm32f4xx_it.c" "CMakeFiles/testcode.elf.dir/Core/Src/stm32f4xx_it.c.obj" "gcc" "CMakeFiles/testcode.elf.dir/Core/Src/stm32f4xx_it.c.obj.d"
   "D:/RM_Projects/STM32F427IIH6_DBUS/testcode/Core/Src/syscalls.c" "CMakeFiles/testcode.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/testcode.elf.dir/Core/Src/syscalls.c.obj.d"

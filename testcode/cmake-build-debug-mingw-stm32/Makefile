@@ -224,30 +224,6 @@ Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testcode.elf.dir\build.make CMakeFiles/testcode.elf.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
 
-Core/Src/mapping.obj: Core/Src/mapping.c.obj
-.PHONY : Core/Src/mapping.obj
-
-# target to build an object file
-Core/Src/mapping.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testcode.elf.dir\build.make CMakeFiles/testcode.elf.dir/Core/Src/mapping.c.obj
-.PHONY : Core/Src/mapping.c.obj
-
-Core/Src/mapping.i: Core/Src/mapping.c.i
-.PHONY : Core/Src/mapping.i
-
-# target to preprocess a source file
-Core/Src/mapping.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testcode.elf.dir\build.make CMakeFiles/testcode.elf.dir/Core/Src/mapping.c.i
-.PHONY : Core/Src/mapping.c.i
-
-Core/Src/mapping.s: Core/Src/mapping.c.s
-.PHONY : Core/Src/mapping.s
-
-# target to generate assembly for a file
-Core/Src/mapping.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testcode.elf.dir\build.make CMakeFiles/testcode.elf.dir/Core/Src/mapping.c.s
-.PHONY : Core/Src/mapping.c.s
-
 Core/Src/stm32f4xx_hal_msp.obj: Core/Src/stm32f4xx_hal_msp.c.obj
 .PHONY : Core/Src/stm32f4xx_hal_msp.obj
 
@@ -805,9 +781,6 @@ help:
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
-	@echo ... Core/Src/mapping.obj
-	@echo ... Core/Src/mapping.i
-	@echo ... Core/Src/mapping.s
 	@echo ... Core/Src/stm32f4xx_hal_msp.obj
 	@echo ... Core/Src/stm32f4xx_hal_msp.i
 	@echo ... Core/Src/stm32f4xx_hal_msp.s
